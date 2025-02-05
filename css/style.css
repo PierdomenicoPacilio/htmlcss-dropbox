@@ -28,3 +28,40 @@ common
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+button {
+    color: #ffffff;
+    background-color: #0061fe;
+    padding: 7px 12px;
+    border: none;
+}
+
+button:active {
+    background-color: #0053d9;
+}
+
+/*****************
+    top 
+*****************/
+
+
+header {
+    justify-content: space-between;
+    padding: 25px 15px;
+    box-shadow: 0 1px 3px 0px #b5b5b5;
+}
+
+header > div{
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+header > div > a{
+    color: #000000;
+    text-decoration: none;
+}
+
+header > div > a:hover{
+    border: -3px solid #000000;
+}
