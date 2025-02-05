@@ -47,8 +47,12 @@ button:active {
 
 header {
     justify-content: space-between;
-    padding: 25px 15px;
+    padding: 0 15px;
     box-shadow: 0 1px 3px 0px #b5b5b5;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header > div{
@@ -60,8 +64,10 @@ header > div{
 header > div > a{
     color: #000000;
     text-decoration: none;
+    padding: 22px 0;
+    border-bottom: 3px solid #ffffff;
 }
 
 header > div > a:hover{
-    border: -3px solid #000000;
+    border-color: #000000;
 }
