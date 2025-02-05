@@ -9,6 +9,7 @@ reset
 
 img{
     display: block;
+    width: 100%;
 }
 
 
@@ -40,16 +41,26 @@ button:active {
     background-color: #0053d9;
 }
 
+.inl{
+    display: inline;
+}
+
+.inl-bl{
+    display: inline-block;
+}
+
 /*****************
     top 
 *****************/
 
 
 header {
+    background-color: #ffffff;
     justify-content: space-between;
     padding: 0 15px;
-    box-shadow: 0 1px 3px 0px #b5b5b5;
+    box-shadow: 0 1px 3px 0px #dedede;
     position: sticky;
+    z-index: 2;
     top: 0;
     left: 0;
     right: 0;
@@ -61,6 +72,10 @@ header > div{
     gap: 40px;
 }
 
+header > div > img{
+    width: auto;
+}
+
 header > div > a{
     color: #000000;
     text-decoration: none;
@@ -70,4 +85,56 @@ header > div > a{
 
 header > div > a:hover{
     border-color: #000000;
+}
+
+
+
+
+/*****************
+    main 
+*****************/
+
+
+/******** 
+jumbotron
+********/
+
+#jumbotron{
+    background-color: #b4d0e6;
+}
+
+#jumbotron > div {
+    max-width: 70%;
+    margin: 0 auto;    
+}
+
+h1{
+    padding-top: 100px;
+    font-size: 60px;
+    font-weight: 3000;
+}
+
+#jumbotron p{
+    font-size: small;
+}
+
+#jumbo-1{
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 15px;
+    align-items: flex-start;
+    position: relative;
+}
+
+#jumbo-1 i{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    font-size: 40px;
+}
+
+#jumbo-2{
+    max-width: 66%;
+    position: relative;
+    top: 60px;
 }
