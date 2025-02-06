@@ -200,7 +200,6 @@ section-1
 
 .col-2{
     width: 100%;
-    height: 200px;
 }
 
 .col-1, .col-2{
@@ -257,7 +256,7 @@ h5{
     padding: 15px 0;
 }
 
-.tab button{
+.col-1 .tab button{
     width: 100%;
     margin: 0 0 40px;
 }
@@ -275,4 +274,33 @@ h6{
 .fa-check{
     color: #0053d9;
     font-weight: bolder;
+}
+
+
+
+
+.col-2 .tab{
+    padding: 20px 0;
+}
+
+.col-2 .tab div{
+    justify-content: space-between;
+    align-content: center;
+}
+
+.col-2 .tab div button{
+    margin: auto 0;
+    padding: 7px 25px;
+}
+
+.col-2 .tab .prezzo{
+    padding-top: 0;
+}
+
+.paragraph{
+    font-size: small;
+}
+
+.tab .paragraph{
+    padding-top: 40px;
 }
