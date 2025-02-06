@@ -186,7 +186,7 @@ section-1
 
 
 
-#griglia-1{
+.griglia{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
@@ -337,4 +337,13 @@ section-2
 
 .w-btn:active{
     background-color: #d5d5d5;
+}
+
+
+/******** 
+section-3
+********/
+
+.col-3{
+    width: calc(100% / 3 - 30px) ;
 }
