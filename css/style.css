@@ -196,7 +196,6 @@ section-1
 
 .col-1{
     width: calc(100% / 3 - 25px) ;
-    height: 500px;
 }
 
 .col-2{
@@ -217,14 +216,52 @@ section-1
 }
 
 .tab{
-    max-width: 90%;
+    max-width: 85%;
     margin: 0 auto;
 }
 
-ul{
-    list-style: none;
+
+
+
+
+h5{
+    padding: 20px 0;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
-.li-1::before{
-    content: "<i class="fa-solid fa-user"></i>";
+.prezzo{
+    font-size: small;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+.rata{
+    font-size: small;
+    color: #878787;
+    padding-bottom: 30px;
+}
+
+.tab > ul{
+    list-style: none;
+    padding: 20px 0 50px;
+}
+
+.tab ul li i{
+    margin-right: 5px;
+}
+
+.tab button{
+    width: 100%;
+    margin: 0 0 40px;
+}
+
+.oppure{
+    padding: 0 5px 40px 0;
+    border-bottom: 1px solid #bebebe;
+}
+
+h6{
+    font-size: small;
+    padding: 100px 0 0;
 }
