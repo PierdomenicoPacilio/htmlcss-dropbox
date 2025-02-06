@@ -153,7 +153,7 @@ section-1
     margin-top: 125px;
 }
 
-#section-1 h2{
+h2{
     padding: 50px 0 0px;
     font-size: 30px;
 }
@@ -346,4 +346,13 @@ section-3
 
 .col-3{
     width: calc(100% / 3 - 30px) ;
+}
+
+
+/******** 
+section-3
+********/
+
+#business{
+    margin-bottom: 60px;
 }
