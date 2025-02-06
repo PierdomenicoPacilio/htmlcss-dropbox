@@ -151,7 +151,7 @@ section-1
 
 
 #section-1{
-    max-width: 60%;
+    max-width: 65%;
     margin: 0 auto;
 }
 
@@ -191,11 +191,11 @@ section-1
 #griglia-1{
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 20px;
 }
 
 .col-1{
-    width: calc(100% / 3 - 25px) ;
+    width: calc(100% / 3 - 20px) ;
 }
 
 .col-2{
@@ -247,8 +247,14 @@ h5{
     padding: 20px 0 50px;
 }
 
-.tab ul li i{
-    margin-right: 5px;
+.tab ul li .fa-solid{
+    padding-top: 3px;
+}
+
+.tab ul li{
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 0;
 }
 
 .tab button{
@@ -264,4 +270,9 @@ h5{
 h6{
     font-size: small;
     padding: 100px 0 0;
+}
+
+.fa-check{
+    color: #0053d9;
+    font-weight: bolder;
 }
