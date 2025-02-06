@@ -139,20 +139,18 @@ h1{
     top: 60px;
 }
 
-hr{
-    margin-top: 125px;
-    border-color: #b0b0b0;
-    border: 2px;
-}
+
+
 
 /******** 
 section-1
 ********/
 
 
-#section-1{
+.section{
     max-width: 65%;
     margin: 0 auto;
+    margin-top: 125px;
 }
 
 #section-1 h2{
@@ -303,4 +301,40 @@ h6{
 
 .tab .paragraph{
     padding-top: 40px;
+}
+
+
+
+
+
+
+/******** 
+section-2
+********/
+
+.section > img {
+    max-width: 60%;
+}
+
+.box-r {
+    max-width: 40%;
+}
+
+.item-box-r{
+    max-width: 80%;
+    margin: 50px auto;
+}
+.item-box-r .paragraph{
+    margin: 0px 0 50px;
+}
+
+.w-btn{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px 18px;
+}
+
+.w-btn:active{
+    background-color: #d5d5d5;
 }
